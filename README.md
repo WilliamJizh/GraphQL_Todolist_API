@@ -8,10 +8,11 @@ Start the Apollo playground by running the command: `npm run devStart`</br>
 The playground will be avaliable at: `http://localhost:4000/graphql`
 
 ##  Brief introduction
-- Create a user and get access token through `signUp` and `logIn` mutations.
-- The todoList query is publicly avaliable and does not require access token. </br>
+- `signUp` mutation: Creating user.
+- `logIn` mutation: obtain access token from validating user credentials.
+- `todoList` query is publicly available and does not require access token. </br>
 Filters like category, title and description could be applied in any combination.
-- Add, edit and delete todos will require access token and edit and delete could only perform by the original todo owner.
+- `addTodo`, `editTodo` and `deleteTodo` will require access token and `editTodo` and `deleteTodo` could only perform by the original todo owner.
 
 ## Examples
 
