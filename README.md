@@ -12,7 +12,7 @@ The playground will be avaliable at: `http://localhost:4000/graphql`
 - `logIn` mutation: obtain access token from validating user credentials.
 - `todoList` query is publicly available and does not require access token. </br>
 Filters like category, title and description could be applied in any combination.
-- `addTodo`, `editTodo` and `deleteTodo` will require access token and `editTodo` and `deleteTodo` could only perform by the original todo owner.
+- `addTodo`, `editTodo` and `deleteTodo` mutations will require access token and `editTodo` and `deleteTodo` could only perform by the original todo owner.
 
 ## Examples
 
