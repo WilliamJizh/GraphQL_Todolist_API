@@ -1,0 +1,18 @@
+{
+    "todos": [
+        {
+            "id": 1660331059331,
+            "userId": 1660286254820,
+            "category": "sed do",
+            "title": "tempor incididunt ",
+            "description": "labore et dolore magna aliqua"
+        }
+    ],
+    "users": [
+        {
+            "id": 1660286254820,
+            "email": "emailaddress",
+            "passwordHash": "$2b$10$STMW1Iir4cOeZjy95A9/iexDy2McWmL1Nxy124vXC6iURH0yQEnbe"
+        }
+    ]
+}
